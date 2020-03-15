@@ -1,0 +1,49 @@
+{
+    "error_row": {
+        "person_id": "A",
+        "datetime": "10/1/15 8:04",
+        "floor_level": 92,
+        "building": "B"
+    },
+    "error_column": "person_id"
+}
+{
+    "error_row": {
+        "person_id": "11",
+        "datetime": "fdfs",
+        "floor_level": 8,
+        "building": "C"
+    },
+    "error_column": "datetime"
+}
+{
+    "error_row": {
+        "person_id": "X",
+        "datetime": "10/1/15 8:28",
+        "floor_level": 7,
+        "building": "C"
+    },
+    "error_column": "person_id"
+}
+{
+    "error_row": {
+        "person_id": "C11",
+        "datetime": "10/1/15 9:00",
+        "floor_level": 6,
+        "building": "C"
+    },
+    "error_column": "person_id"
+}
+{
+    "error_row": "{\"person_id\": \"21\", \"datetime\": \"10/1/15 9:00\", \"floor_level\": 3, \"building\": \"12#\"}",
+    "error_column": "building"
+}
+{
+    "error_row": {
+        "person_id": "123Q",
+        "datetime": "10/1/15 9:10",
+        "floor_level": 4,
+        "building": "A"
+    },
+    "error_column": "person_id"
+}
