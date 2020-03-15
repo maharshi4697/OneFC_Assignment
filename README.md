@@ -1,5 +1,9 @@
 # OneFC_Assignment
 
+The Python Script, 'Assignment.py' uses a CSV file as an input. Performs transformations on the data as per a JSON Schema and outputs 2 files, 1 for the Correct Output and another for the errors in the input data file.
+
+To Run the following code, the following steps need to performed.
+
 1. Create a Virtual Env with the following command.
 	   virtualenv OneFCenv -p python3.7
 
