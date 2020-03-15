@@ -1,0 +1,35 @@
+create table events(id serial,event varchar(20),people int);
+
+Insert into events values (Default,'A',10);
+
+Insert into events values (Default,'B',109);
+
+Insert into events values (Default,'C',150);
+
+Insert into events values(Default,'D',99);
+
+Insert into events values(Default,'E',145);
+
+Insert into events values(Default,'F',1455);
+
+Insert into events values(Default,'G',199);
+
+Insert into events values(Default,'H',188);
+ 
+Insert into events values (Default,'I',46);
+
+Insert into events values (Default,'J',92);
+
+Insert into events values(Default,'K',78);
+
+Insert into events values(Default,'L',144);
+
+Insert into events values(Default,'M',145);
+
+Insert into events values(Default,'N',155);
+
+Insert into events values(Default,'O',99);
+
+Insert into events values(Default,'P',188);
+
+

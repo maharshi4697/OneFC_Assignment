@@ -1,0 +1,14 @@
+Question:-
+
+One Championship conducts events in a stadium, each event many people visit it and the stats are saved as these columns: id, event_name, people_count
+Take leverage in adding sample data yourself.
+Please write a query to display the records which have 3 or more consecutive events and the amount of people more than 100(inclusive).
+
+
+
+[Code Can Be Tested on https://www.db-fiddle.com/ using Postgres v12 DB.]
+
+
+
+
+

@@ -1,0 +1,16 @@
+with temp1 as
+(
+	select	*
+                ,(id - row_number()over(order by event)) as groups
+        from 	events
+	where 	people>=100 
+),
+temp2 as 
+(
+	select	*
+            	,count(date) over (partition by event) as days_sequence
+	from	temp1
+)
+select	*
+from 	temp2
+where   days_sequence >= 3
