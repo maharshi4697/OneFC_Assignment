@@ -1,6 +1,4 @@
-# OneFC_Assignment
-
-#Python Instructions
+# Python Instructions
 
 The Python Script, 'Assignment.py' uses a CSV file as an input. Performs transformations on the data as per a JSON Schema and outputs 2 files, 1 for the Correct Output and another for the errors in the input data file.
 
