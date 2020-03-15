@@ -20,6 +20,11 @@ To Run the following code, the following steps need to performed.
     python Assignment.py --help
 
 
+To generate the error json, use 'data_new.csv' instead of 'data.csv'
+and use 'schema.json'. 'schema_new.json' will not work for 'Assignment.py',
+'schema_new.json' is meant to used with 'Assignment_New.py'
+
+
 
 The Python Script, 'Assignment_New.py' is a more optimized form of 'Assignment.py'. To run this code, use the Json schema, 'schema_new.json' instead of 'schema.json'. The schema_new.json has been modified to verify patterns using the schema instead of hard coding it. The benefit is that only 1 source of truth needs to be maintained and everytime something needs to be changed, the code doesn't need to be changed, only the 'schema_new.json' should be modified.
 
